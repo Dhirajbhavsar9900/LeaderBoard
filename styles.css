@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #070F2B;
+    overflow-x: hidden ;
+    overflow-y: hidden ;
+}
+
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.section1{
+    height: 85vh;
+    margin: 90px 262px;
+    
+    border-radius: 40px;
+    
+    background:#1B1A55;
+ 
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    background-color: #535C91;
+    margin: 0px 0px 35px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form {
+    width: 800px;
+    height: 66px;
+    margin: 0px 203px;
+    padding: 13px;
+    background-color: #535C91;
+    border-radius: 5px;
+}
+
+.form input {
+    width: 18%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background-color: #ebebf3;
+    margin: 0px 10px 0px 0px;
+}
+
+button {
+    margin: 0px 0px 0px 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.section2 {
+    background-color:  #535C91;
+    margin: 55px 65px;
+    height: 450px;
+    width: 1080px;
+    border-radius: 10px;
+    
+}
+
+
+.section2-data {
+    height: 80px;
+    display: flex;
+    width: 850px;
+    margin: 24px 115px;
+    gap: 100px;
+    background-color: #070F2B;
+    border-radius: 10px;
+}
+
+
+.section2 span {
+    margin: 18px 16px;
+    padding: 12px 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+
+.section2-data div{
+    margin: 18px 16px;
+    padding: 12px 0px;
+}
+
+
+
+.section2-data div span{
+    margin: 18px 16px;
+    padding: 12px 0px;
+    cursor: pointer;
+}
+
+.section2-data div svg {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
